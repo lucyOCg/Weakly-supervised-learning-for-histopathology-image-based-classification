@@ -1,0 +1,27 @@
+name: deep-learning
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.7
+  - h5py=2.10.0
+  - cairo
+  - pixman=0.40.0
+  - pytorch-gpu=1.7.1
+  - numpy=1.18.1
+  - matplotlib=3.1.1
+  - pandas==0.25.3
+  - torchvision=0.8.2
+  - pip=20.0
+  - pillow=7.0.0
+  - scikit-learn==0.22.1
+  - openslide
+  - opencv
+  - pip:
+    - opencv-python==4.1.1.26
+    - openslide-python==1.1.1
+    - openslides==3.0
+    - torchsummary
+    - pyyaml
+    - pytorch_lightning
